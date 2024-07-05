@@ -21,7 +21,6 @@ public class TwoSumExample {
 		for (int i : res) {
 			System.out.println(i);
 		}
-
 	}
 
 	private static int[] twoSum(int[] arr, int target) {
@@ -36,5 +35,4 @@ public class TwoSumExample {
 		}
 		throw new IllegalArgumentException("No Two sum Solution");
 	}
-
 }
